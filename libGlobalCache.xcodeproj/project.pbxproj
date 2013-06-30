@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* libGlobalCache_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* libGlobalCache_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D048C7C81020F2CE000D3BBA /* GCDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = D048C7C71020F2CE000D3BBA /* GCDefines.m */; };
+		D048C7C91020F2CE000D3BBA /* GCDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = D048C7C71020F2CE000D3BBA /* GCDefines.m */; };
+		D048C7CA1020F2CE000D3BBA /* GCDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = D048C7C71020F2CE000D3BBA /* GCDefines.m */; };
+		D048C7D91020FD54000D3BBA /* GCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D048C7D71020FD54000D3BBA /* GCResponse.h */; };
+		D048C7DA1020FD54000D3BBA /* GCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D048C7D81020FD54000D3BBA /* GCResponse.m */; };
+		D048C7DB1020FD54000D3BBA /* GCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D048C7D71020FD54000D3BBA /* GCResponse.h */; };
+		D048C7DC1020FD54000D3BBA /* GCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D048C7D81020FD54000D3BBA /* GCResponse.m */; };
+		D048C7DD1020FD54000D3BBA /* GCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D048C7D71020FD54000D3BBA /* GCResponse.h */; };
+		D048C7DE1020FD54000D3BBA /* GCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D048C7D81020FD54000D3BBA /* GCResponse.m */; };
+		D048CED01022738B000D3BBA /* GCEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = D048CECE1022738B000D3BBA /* GCEvent.h */; };
+		D048CED11022738B000D3BBA /* GCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D048CECF1022738B000D3BBA /* GCEvent.m */; };
+		D048CED21022738B000D3BBA /* GCEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = D048CECE1022738B000D3BBA /* GCEvent.h */; };
+		D048CED31022738B000D3BBA /* GCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D048CECF1022738B000D3BBA /* GCEvent.m */; };
+		D048CED41022738B000D3BBA /* GCEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = D048CECE1022738B000D3BBA /* GCEvent.h */; };
+		D048CED51022738B000D3BBA /* GCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = D048CECF1022738B000D3BBA /* GCEvent.m */; };
+		D082772D0FF6BA99006204E3 /* libGlobalCache_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* libGlobalCache_Prefix.pch */; };
+		D08277300FF6BA99006204E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D08277370FF6BAC8006204E3 /* libGlobalCache_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* libGlobalCache_Prefix.pch */; };
+		D082773A0FF6BAC8006204E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D082774E0FF6BC42006204E3 /* GlobalCacheBox.h in Headers */ = {isa = PBXBuildFile; fileRef = D082774C0FF6BC42006204E3 /* GlobalCacheBox.h */; };
+		D082774F0FF6BC42006204E3 /* GlobalCacheBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D082774D0FF6BC42006204E3 /* GlobalCacheBox.m */; };
+		D08277500FF6BC42006204E3 /* GlobalCacheBox.h in Headers */ = {isa = PBXBuildFile; fileRef = D082774C0FF6BC42006204E3 /* GlobalCacheBox.h */; };
+		D08277510FF6BC42006204E3 /* GlobalCacheBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D082774D0FF6BC42006204E3 /* GlobalCacheBox.m */; };
+		D08277520FF6BC42006204E3 /* GlobalCacheBox.h in Headers */ = {isa = PBXBuildFile; fileRef = D082774C0FF6BC42006204E3 /* GlobalCacheBox.h */; };
+		D08277530FF6BC42006204E3 /* GlobalCacheBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D082774D0FF6BC42006204E3 /* GlobalCacheBox.m */; };
+		D08278550FF8358F006204E3 /* GCDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D08278540FF8358F006204E3 /* GCDefines.h */; };
+		D08278560FF8358F006204E3 /* GCDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D08278540FF8358F006204E3 /* GCDefines.h */; };
+		D08278570FF8358F006204E3 /* GCDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D08278540FF8358F006204E3 /* GCDefines.h */; };
+		D08278C20FF84566006204E3 /* GCCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = D08278C00FF84566006204E3 /* GCCommand.h */; };
+		D08278C30FF84566006204E3 /* GCCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D08278C10FF84566006204E3 /* GCCommand.m */; };
+		D08278C40FF84566006204E3 /* GCCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = D08278C00FF84566006204E3 /* GCCommand.h */; };
+		D08278C50FF84566006204E3 /* GCCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D08278C10FF84566006204E3 /* GCCommand.m */; };
+		D08278C60FF84566006204E3 /* GCCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = D08278C00FF84566006204E3 /* GCCommand.h */; };
+		D08278C70FF84566006204E3 /* GCCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D08278C10FF84566006204E3 /* GCCommand.m */; };
+		D08279150FF85084006204E3 /* LLThreadQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D08279130FF85084006204E3 /* LLThreadQueue.h */; };
+		D08279160FF85084006204E3 /* LLThreadQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D08279140FF85084006204E3 /* LLThreadQueue.m */; };
+		D08279170FF85084006204E3 /* LLThreadQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D08279130FF85084006204E3 /* LLThreadQueue.h */; };
+		D08279180FF85084006204E3 /* LLThreadQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D08279140FF85084006204E3 /* LLThreadQueue.m */; };
+		D08279190FF85084006204E3 /* LLThreadQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D08279130FF85084006204E3 /* LLThreadQueue.h */; };
+		D082791A0FF85084006204E3 /* LLThreadQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D08279140FF85084006204E3 /* LLThreadQueue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* libGlobalCache_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libGlobalCache_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D048C7C71020F2CE000D3BBA /* GCDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDefines.m; sourceTree = "<group>"; };
+		D048C7D71020FD54000D3BBA /* GCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCResponse.h; sourceTree = "<group>"; };
+		D048C7D81020FD54000D3BBA /* GCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCResponse.m; sourceTree = "<group>"; };
+		D048CECE1022738B000D3BBA /* GCEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCEvent.h; sourceTree = "<group>"; };
+		D048CECF1022738B000D3BBA /* GCEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCEvent.m; sourceTree = "<group>"; };
+		D08277340FF6BA99006204E3 /* libGlobalCacheX86.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGlobalCacheX86.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D082773E0FF6BAC8006204E3 /* libGlobalCacheShell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGlobalCacheShell.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D082774C0FF6BC42006204E3 /* GlobalCacheBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalCacheBox.h; sourceTree = "<group>"; };
+		D082774D0FF6BC42006204E3 /* GlobalCacheBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalCacheBox.m; sourceTree = "<group>"; };
+		D08278540FF8358F006204E3 /* GCDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDefines.h; sourceTree = "<group>"; };
+		D08278C00FF84566006204E3 /* GCCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCommand.h; sourceTree = "<group>"; };
+		D08278C10FF84566006204E3 /* GCCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCommand.m; sourceTree = "<group>"; };
+		D08279130FF85084006204E3 /* LLThreadQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLThreadQueue.h; sourceTree = "<group>"; };
+		D08279140FF85084006204E3 /* LLThreadQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLThreadQueue.m; sourceTree = "<group>"; };
+		D0E291BE177FB4C1001A95AE /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.md; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libGlobalCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGlobalCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D082772F0FF6BA99006204E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08277300FF6BA99006204E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08277390FF6BAC8006204E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D082773A0FF6BAC8006204E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libGlobalCache.a */,
+				D08277340FF6BA99006204E3 /* libGlobalCacheX86.a */,
+				D082773E0FF6BAC8006204E3 /* libGlobalCacheShell.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* libGlobalCache */ = {
+			isa = PBXGroup;
+			children = (
+				D0E291BE177FB4C1001A95AE /* ReadMe.md */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				D048C7C41020EF1E000D3BBA /* Libraries */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = libGlobalCache;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D082774C0FF6BC42006204E3 /* GlobalCacheBox.h */,
+				D082774D0FF6BC42006204E3 /* GlobalCacheBox.m */,
+				D08278540FF8358F006204E3 /* GCDefines.h */,
+				D048C7C71020F2CE000D3BBA /* GCDefines.m */,
+				D08278C00FF84566006204E3 /* GCCommand.h */,
+				D08278C10FF84566006204E3 /* GCCommand.m */,
+				D048C7D71020FD54000D3BBA /* GCResponse.h */,
+				D048C7D81020FD54000D3BBA /* GCResponse.m */,
+				D048CECE1022738B000D3BBA /* GCEvent.h */,
+				D048CECF1022738B000D3BBA /* GCEvent.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* libGlobalCache_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D048C7C41020EF1E000D3BBA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D08279130FF85084006204E3 /* LLThreadQueue.h */,
+				D08279140FF85084006204E3 /* LLThreadQueue.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D082772C0FF6BA99006204E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D082772D0FF6BA99006204E3 /* libGlobalCache_Prefix.pch in Headers */,
+				D08277520FF6BC42006204E3 /* GlobalCacheBox.h in Headers */,
+				D08278570FF8358F006204E3 /* GCDefines.h in Headers */,
+				D08278C60FF84566006204E3 /* GCCommand.h in Headers */,
+				D08279190FF85084006204E3 /* LLThreadQueue.h in Headers */,
+				D048C7DB1020FD54000D3BBA /* GCResponse.h in Headers */,
+				D048CED21022738B000D3BBA /* GCEvent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08277360FF6BAC8006204E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08277370FF6BAC8006204E3 /* libGlobalCache_Prefix.pch in Headers */,
+				D082774E0FF6BC42006204E3 /* GlobalCacheBox.h in Headers */,
+				D08278550FF8358F006204E3 /* GCDefines.h in Headers */,
+				D08278C20FF84566006204E3 /* GCCommand.h in Headers */,
+				D08279150FF85084006204E3 /* LLThreadQueue.h in Headers */,
+				D048C7D91020FD54000D3BBA /* GCResponse.h in Headers */,
+				D048CED01022738B000D3BBA /* GCEvent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* libGlobalCache_Prefix.pch in Headers */,
+				D08277500FF6BC42006204E3 /* GlobalCacheBox.h in Headers */,
+				D08278560FF8358F006204E3 /* GCDefines.h in Headers */,
+				D08278C40FF84566006204E3 /* GCCommand.h in Headers */,
+				D08279170FF85084006204E3 /* LLThreadQueue.h in Headers */,
+				D048C7DD1020FD54000D3BBA /* GCResponse.h in Headers */,
+				D048CED41022738B000D3BBA /* GCEvent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D082772B0FF6BA99006204E3 /* libGlobalCacheX86 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08277310FF6BA99006204E3 /* Build configuration list for PBXNativeTarget "libGlobalCacheX86" */;
+			buildPhases = (
+				D082772C0FF6BA99006204E3 /* Headers */,
+				D082772E0FF6BA99006204E3 /* Sources */,
+				D082772F0FF6BA99006204E3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libGlobalCacheX86;
+			productName = libGlobalCache;
+			productReference = D08277340FF6BA99006204E3 /* libGlobalCacheX86.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D08277350FF6BAC8006204E3 /* libGlobalCacheShell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D082773B0FF6BAC8006204E3 /* Build configuration list for PBXNativeTarget "libGlobalCacheShell" */;
+			buildPhases = (
+				D08277360FF6BAC8006204E3 /* Headers */,
+				D08277380FF6BAC8006204E3 /* Sources */,
+				D08277390FF6BAC8006204E3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libGlobalCacheShell;
+			productName = libGlobalCache;
+			productReference = D082773E0FF6BAC8006204E3 /* libGlobalCacheShell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D2AAC07D0554694100DB518D /* libGlobalCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "libGlobalCache" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libGlobalCache;
+			productName = libGlobalCache;
+			productReference = D2AAC07E0554694100DB518D /* libGlobalCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "libGlobalCache" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* libGlobalCache */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* libGlobalCache */,
+				D082772B0FF6BA99006204E3 /* libGlobalCacheX86 */,
+				D08277350FF6BAC8006204E3 /* libGlobalCacheShell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D082772E0FF6BA99006204E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08277530FF6BC42006204E3 /* GlobalCacheBox.m in Sources */,
+				D08278C70FF84566006204E3 /* GCCommand.m in Sources */,
+				D082791A0FF85084006204E3 /* LLThreadQueue.m in Sources */,
+				D048C7C91020F2CE000D3BBA /* GCDefines.m in Sources */,
+				D048C7DC1020FD54000D3BBA /* GCResponse.m in Sources */,
+				D048CED31022738B000D3BBA /* GCEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08277380FF6BAC8006204E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D082774F0FF6BC42006204E3 /* GlobalCacheBox.m in Sources */,
+				D08278C30FF84566006204E3 /* GCCommand.m in Sources */,
+				D08279160FF85084006204E3 /* LLThreadQueue.m in Sources */,
+				D048C7C81020F2CE000D3BBA /* GCDefines.m in Sources */,
+				D048C7DA1020FD54000D3BBA /* GCResponse.m in Sources */,
+				D048CED11022738B000D3BBA /* GCEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08277510FF6BC42006204E3 /* GlobalCacheBox.m in Sources */,
+				D08278C50FF84566006204E3 /* GCCommand.m in Sources */,
+				D08279180FF85084006204E3 /* LLThreadQueue.m in Sources */,
+				D048C7CA1020F2CE000D3BBA /* GCDefines.m in Sources */,
+				D048C7DE1020FD54000D3BBA /* GCResponse.m in Sources */,
+				D048CED51022738B000D3BBA /* GCEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/libGlobalCache.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = libGlobalCache_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GlobalCache;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/libGlobalCache.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = libGlobalCache_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GlobalCache;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D08277320FF6BA99006204E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/libGlobalCache.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = libGlobalCache_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GlobalCacheX86;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D08277330FF6BA99006204E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/libGlobalCache.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = libGlobalCache_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GlobalCacheX86;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D082773C0FF6BAC8006204E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/libGlobalCache.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = libGlobalCache_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GlobalCacheShell;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		D082773D0FF6BAC8006204E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/libGlobalCache.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = libGlobalCache_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = GlobalCacheShell;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "libGlobalCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "libGlobalCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08277310FF6BA99006204E3 /* Build configuration list for PBXNativeTarget "libGlobalCacheX86" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08277320FF6BA99006204E3 /* Debug */,
+				D08277330FF6BA99006204E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D082773B0FF6BAC8006204E3 /* Build configuration list for PBXNativeTarget "libGlobalCacheShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D082773C0FF6BAC8006204E3 /* Debug */,
+				D082773D0FF6BAC8006204E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
